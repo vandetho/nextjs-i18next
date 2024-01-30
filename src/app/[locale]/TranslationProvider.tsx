@@ -11,7 +11,7 @@ interface TranslationProviderProps {
     resources: any;
 }
 
-const TranslationProvider = React.memo<PropsWithChildren<TranslationsProviderProps>>(
+const TranslationProvider = React.memo<PropsWithChildren<TranslationProviderProps>>(
     ({ children, locale, namespaces, resources }) => {
         const i18n = createInstance();
 

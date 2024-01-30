@@ -1,1 +1,3 @@
-{}
+{
+    "home_text": "Ceci est une page d'accueil pour tester un moyen simple d'ajouter une traduction dans Next.js à l'aide d'i18Next."
+}
